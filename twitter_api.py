@@ -1,9 +1,13 @@
 import twitter
 import json 
 import psycopg2
+
 api = twitter.Twitter(auth=twitter.OAuth('789506922−←􏰀 Q76Fuju6HXT5m4zkRd70TN4J4o9vTNnLUeXs1jDC ' , '←􏰀 UZAvAFrkD09QGJT9ZLrZ0B1kxi5bukHICKdpaxYDUzx5q ' , ' W94xcLqO4NhCrFKVSigwDk5yb ' , ' ←􏰀 U0LMMrj2eZOtxXr4zViYprO9nEuRJ8XEQt3iDD2vOqcKsIeZAW ' ) )
+
 conn = psycopg2 . connect ( ” dbname=testdb user=postgres password=postgres ” ) 
+
 cur = conn.cursor()
+
 cur.execute('SELECT text from word') terms = cur.fetchall()
 
 if terms :
