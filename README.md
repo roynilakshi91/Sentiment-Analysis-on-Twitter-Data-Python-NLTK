@@ -8,4 +8,4 @@ Objective:
 * Predictive analysis is done for the future analysis of the data over a time period.
 
 NOTE:
-Project documentation and ppt are attached
+Attached PPT and Project Documentation 
